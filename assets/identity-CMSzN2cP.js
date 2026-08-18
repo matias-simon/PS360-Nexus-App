@@ -1,1 +1,0 @@
-import{n as e}from"./immutable-D8-tcB7v.js";import{a as t}from"./client-B3ieEjiV.js";var n={id:`demo-operator`,displayName:`Demo Operator`,role:`administrator`,tenantId:`prod`},r={async getCurrent(){return e.api.useMocks?n:(await t(`/me`)).data}};export{r as t};
